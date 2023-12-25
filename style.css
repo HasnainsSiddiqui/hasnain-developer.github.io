@@ -204,7 +204,7 @@ nav {
 .girl-img {
     width: 240px;
     height: 300px;
-    background: url('images/image\ 9.png') 50% / cover no-repeat;
+    background: url(images/image\ 9.png) 50% / cover no-repeat;
     transform: translateX(160%);
     margin-top: -292px;
 }
@@ -267,7 +267,7 @@ nav {
 .boy-img {
     width: 324px;
     height: 300px;
-    background: url('images/men_small\ 1.png') 50% / cover no-repeat;
+    background: url(images/men_small\ 1.png) 50% / cover no-repeat;
     transform: translateX(97%);
     margin-top: -292px;
 }
@@ -387,7 +387,7 @@ nav {
     width: 450px;
     height: 513px;
     flex-shrink: 0;
-    background-image: url(image\ 10.png);
+    background-image: url(images/image\ 10.png);
     background-size: cover;
     margin-left: 900px;
     transform: translateY(-110%);
@@ -464,18 +464,19 @@ nav {
     position: relative;
     width: 327px;
     height: 326.049px;
-    background-image: url(image\ 14.png);
+    background-image: url(images/image\ 14.png);
     background-position: top;
     background-size: cover;
     border-radius: 20px;
     margin-top: 40px;
     cursor: pointer;
+    overflow-x: hidden;
 }
 
 .ellisp-111 {
     width: 60px;
     height: 60px;
-    background-image: url(Ellipse\ 111.png);
+    background-image: url(images/Ellipse\ 111.png);
     background-repeat: no-repeat;
     color: #FFF;
     font-size: 20px;
