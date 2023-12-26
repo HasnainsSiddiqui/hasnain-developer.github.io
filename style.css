@@ -7,6 +7,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #161513;
+    overflow-x: hidden;
 }
 
 a {
@@ -282,13 +283,13 @@ footer p {
 }
 
 .emails img {
-    transform: translatey(5px);
+    transform: translateY(5px);
     /* you can adjust this as your need*/
     width: 22px;
     height: 19px;
 }
 
-.emails span {
+.contact-email {
     color: #C5C5C5;
 }
 
@@ -302,4 +303,5 @@ footer p {
 .social-link img {
     width: 25px;
     height: 20px;
+    color: #888686;
 }
