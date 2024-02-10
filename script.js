@@ -1,0 +1,1 @@
+const locomotiveJs = new Locomotive;
